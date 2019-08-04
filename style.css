@@ -1,0 +1,96 @@
+body {
+    background-color: lightgray;
+    font-family: 'Open Sans', sans-serif;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    background-color: white;
+    height: 280px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.card__dayname {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 13px;
+}
+
+.card__date {
+    font-size: 18px;
+    text-align: center;
+}
+
+.card__photo {
+    text-align: center;
+    margin-top: 10px;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+}
+
+.card__daytemperature {
+    text-align: center;
+    font-weight: bold;
+}
+
+.card__nighttemperatue {
+    padding-top: 16px;
+    text-align: center;
+}
+
+.card__shortinfo {
+    text-align: center;
+    padding-top: 15px;
+    opacity: 0.5;
+    font-size: 15px;
+}
+
+.prognose {
+    text-align: center;
+    color: black;
+}
+
+.city {
+    text-align: center;
+    color: grey;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+}
+
+.arrow {
+    width: 50px;
+    height: 50px;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+
+.arrow:hover {
+    opacity: 0.7;
+}
+
+.arrow.left {
+    transform: rotate(45deg);
+}
+
+.arrow.right {
+    transform: rotate(-135deg);
+}
